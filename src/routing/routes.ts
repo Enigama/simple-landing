@@ -1,4 +1,6 @@
+const PRODUCT = "product";
+
 export const ROUTES = {
   HOME: "/",
-  PRODUCT: "/product",
+  PRODUCT: `/${PRODUCT}`,
 };

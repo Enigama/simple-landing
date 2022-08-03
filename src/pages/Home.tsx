@@ -1,3 +1,9 @@
+import { IntroSections } from "../sections";
+
 export const Home = () => {
-  return <>Home</>;
+  return (
+    <>
+      <IntroSections />
+    </>
+  );
 };
