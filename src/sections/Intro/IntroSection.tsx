@@ -1,6 +1,7 @@
 import styled from "@emotion/styled";
-import { Button, Typography } from "antd";
-import { SideNav } from "../../components";
+import { Button, Col, Row, Typography } from "antd";
+import { SideNav, Social } from "../../components";
+import Logo from "./logo.png";
 import "./index.css";
 
 const StyledContainer = styled.div`
@@ -34,12 +35,26 @@ const StyledButton = styled(Button)`
 `;
 export const IntroSections = () => {
   return (
-    <div className="test">
-      <SideNav />
+    <div className='test'>
+      <Row justify="space-between">
+        <Row>
+          <Col>
+            <SideNav />
+          </Col>
+          <Col>
+            <a href="https://test">
+              <img src={Logo} alt="" />
+            </a>
+          </Col>
+        </Row>
+        <Col>
+          <Social />
+        </Col>
+      </Row>
       <StyledContainer>
         <StyledTitle>The best products start with Figma</StyledTitle>
         <StyledDescription>
-          Most calendars are designed for teams. Salte is designed for
+          Most calendars are designed for teams. Slate is designed for
           freelancers.
         </StyledDescription>
         <StyledButton type="primary">Try for free</StyledButton>

@@ -1,6 +1,6 @@
 import React from "react";
 import { Menu } from "antd";
-import { NavLink, useHistory, useLocation } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 import { ROUTES } from "../../routing";
 import styled from "@emotion/styled";
 
