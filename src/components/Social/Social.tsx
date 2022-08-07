@@ -25,12 +25,10 @@ const StyledLink = styled.a`
   margin-left: 15px;
   margin-right: 15px;
 `;
-export const Social = () => {
-  return (
-    <>
-      {social.map(({ link, icon }) => (
-        <StyledLink href={link}>{icon}</StyledLink>
-      ))}
-    </>
-  );
-};
+export const Social = () => (
+  <>
+    {social.map(({ link, icon }) => (
+      <StyledLink href={link}>{icon}</StyledLink>
+    ))}
+  </>
+);
