@@ -28,6 +28,7 @@ const StyledLink = styled.a`
 export const Social = () => {
   return (
     <>
+      <h1>Test</h1>
       {social.map(({ link, icon }) => (
         <StyledLink href={link}>{icon}</StyledLink>
       ))}
