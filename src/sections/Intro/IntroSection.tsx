@@ -34,7 +34,7 @@ const StyledButton = styled(Button)`
 `;
 export const IntroSections = () => {
   return (
-    <div className="test">
+    <div className="intro-section">
       <SideNav />
       <StyledContainer>
         <StyledTitle>The best products start with Figma</StyledTitle>
